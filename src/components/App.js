@@ -1,16 +1,17 @@
-import React, { Fragment, useState, useEffect } from "react";
+import React, { useState } from 'react';
 
-export default function App() {
-  const [counter, setCounter] = useState(0);
+function App() {
 
-  useEffect(() => {
-    document.title = `The number is now ${counter}`;
-  });
+  const [msg, setMsg] = useState('Fred');
+
   return (
-    <Fragment>
-      {counter}
-      <button onClick={() => setCounter(counter + 1)}>Count up</button>
-      <button onClick={() => setCounter(counter - 1)}>Count down</button>
-    </Fragment>
-  );
+    <div>
+      <p>{msg}</p>
+      <input value="Change Name" type="button" onClick={() => setMsg('Sandy')} />
+    </div>
+  )
 }
+
+// export default App
+
+export default React.memo(App)

@@ -1,5 +1,5 @@
 {
-  "name": "react-cloner",
+  "name": "react-hooks-usestate-useeffect",
   "version": "1.0.0",
   "description": "react client",
   "author": "DORMshed",
@@ -12,8 +12,8 @@
   },
   "dependencies": {
     "@babel/polyfill": "^7.0.0",
-    "react": "^16.7.0-alpha.0",
-    "react-dom": "^16.7.0-alpha.0"
+    "react": "16.7.0-alpha.2",
+    "react-dom": "16.7.0-alpha.2"
   },
   "devDependencies": {
     "@babel/core": "^7.1.2",

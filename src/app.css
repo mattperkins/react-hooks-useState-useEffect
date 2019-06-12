@@ -2,3 +2,14 @@ body {
   background-color: #f7f7f7;
   color: #282b34;
 }
+div{
+  padding: 0 50px;
+  display: flex;
+}
+.fixed{
+  position: fixed;
+  top:300px;
+}
+.buttonStateChanger{
+  padding-top: 100px;
+}

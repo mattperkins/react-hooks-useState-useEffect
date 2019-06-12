@@ -1,10 +1,11 @@
 import React from 'react'
 import './app.css'
+import HookState from './HookState';
 
 function App() {
   return (
     <>
-      <h2>hello,world</h2>
+      <HookState />
     </>
   )
 }

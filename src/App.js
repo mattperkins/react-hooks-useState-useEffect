@@ -1,11 +1,20 @@
 import React from 'react'
 import './app.css'
-import HookState from './HookState';
+// import HookStateEffectScollerDetector from './HookStateEffectScollerDetector';
+import CustomHookStateEffectFetch from './CustomHookStateEffectFetch';
 
 function App() {
   return (
     <>
-      <HookState />
+
+      {/* couple of buttons: useState */}
+      {/* scroll position event handler: useEffect */}
+      {/* uncomment to view */}
+      {/* <HookStateEffectScollerDetector /> */}
+
+
+      {/* fetch api data: useState, useEffect */}
+      <CustomHookStateEffectFetch />
     </>
   )
 }

@@ -1,7 +1,1 @@
-```
-yarn
-yarn start
-yarn build
-yarn eject
-```
-
+## IGNORE : THIS REPO / PROJECT HAS BEEN REFACTORED AS react-hooks-all
